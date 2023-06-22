@@ -17,7 +17,7 @@ pipeline {
             steps {
                 echo "Testing.."
                 sh '''
-                echo "doing test stuff..
+                echo "doing test stuff.."
                 '''
             }
         }
@@ -31,3 +31,8 @@ pipeline {
         }
     }
 }
+
+
+//note pipeline {
+    //agent any
+    //stages  "we can removed node, label it will work "
